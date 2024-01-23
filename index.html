@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tod-do App</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  
+    <!-- Main COntainer -->
+    <div class="container">
+        
+        <!-- Main Heading -->
+        <div class="todo-header">
+            <h1>ToDo List</h1>
+            <img src="images/200w.gif" alt="">
+        </div>
+
+        <!-- Form Body -->
+        <div class="todo-body">
+            
+            <input type="text" id="todoText" class="todo-input"
+            placeholder="Add your Task">
+
+            <img src="images/plus.jpg" alt=""
+            id="addUpdateClick" onClick="createTodoData()">
+
+        </div>
+
+        <!-- Todo List -->
+        <ul id="list-items" class="list-items">
+
+        </ul>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+ </body>
+ </html>
